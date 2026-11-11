@@ -1,0 +1,288 @@
+{
+  "latex": {
+    "tex_files": 17,
+    "labels": 197,
+    "reference_keys": 137,
+    "citation_keys": 68,
+    "bibliography_entries": 68,
+    "undefined_references": {},
+    "duplicate_labels": {},
+    "missing_citations": [],
+    "duplicate_bibkeys": []
+  },
+  "evidence_checks": [
+    {
+      "check": "archive_reconciliation",
+      "status": "PASS",
+      "raw": 438850,
+      "retained": 372750,
+      "superseded": 66100
+    },
+    {
+      "check": "condition_grid",
+      "status": "PASS",
+      "total": 372750,
+      "verified": 368056,
+      "no_output": 4694,
+      "success_percent": 98.74071093226023
+    },
+    {
+      "check": "sampling_geometry_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "message_id_text_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "sampling_geometry_message_id_text_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "per_image_grid",
+      "status": "PASS"
+    },
+    {
+      "check": "message_identities_and_framing",
+      "status": "PASS",
+      "frame_overhead_bytes": 35,
+      "wire_header_bytes": 26,
+      "plaintext_metadata_bytes": 9
+    },
+    {
+      "check": "qf_population",
+      "status": "PASS",
+      "minimum": 75,
+      "maximum": 100
+    },
+    {
+      "check": "reported_invariants",
+      "status": "PASS",
+      "categories": 37,
+      "qualification": "Aggregate declarations, not independent replay"
+    },
+    {
+      "check": "bootstrap_point_estimates_match",
+      "status": "PASS",
+      "compared": 18
+    },
+    {
+      "check": "bootstrap_intervals_contain_estimate",
+      "status": "PASS"
+    }
+  ],
+  "evidence_findings": {
+    "source_row_pointer_conflicts": [
+      {
+        "file": "extremes_eval_target_band_jensen_shannon.csv",
+        "source_archive": "101(2).zip",
+        "source_row": "181400",
+        "raw_rows": 178439,
+        "image_id_text": "img0003457",
+        "message_id_text": "014",
+        "run_id": "0f2fa638-6395-47af-bb8f-1dba97feb6aa"
+      },
+      {
+        "file": "extremes_reference_stego_psnr.csv",
+        "source_archive": "101(2).zip",
+        "source_row": "187108",
+        "raw_rows": 178439,
+        "image_id_text": "img0003512",
+        "message_id_text": "005",
+        "run_id": "f774b6a2-0f6c-438b-975a-46e655fec562"
+      },
+      {
+        "file": "extremes_reference_stego_psnr.csv",
+        "source_archive": "101(2).zip",
+        "source_row": "187085",
+        "raw_rows": 178439,
+        "image_id_text": "img0003512",
+        "message_id_text": "002",
+        "run_id": "674faa0f-df3b-4d28-97c8-92d2fba68740"
+      },
+      {
+        "file": "extremes_reference_stego_psnr.csv",
+        "source_archive": "101(2).zip",
+        "source_row": "187090",
+        "raw_rows": 178439,
+        "image_id_text": "img0003512",
+        "message_id_text": "003",
+        "run_id": "e11ef763-0021-4d37-ac97-325d474c576a"
+      }
+    ],
+    "bootstrap_resamples_and_seed_present": false,
+    "exact_executed_source_identity_present": false,
+    "evidence_scope": "Summary tables only; no complete terminal ledger, original PNG/message corpus or serialized reference/stego population supplied"
+  },
+  "thesis_inventory": [
+    {
+      "file": "abstract(20261111-131327).tex",
+      "sha256": "6ec8ce5ddef3c1c7a99b1eb5ecbd0649eba6ba902c8a91c0d3c8ecac8e4dff84"
+    },
+    {
+      "file": "acknowledgement(3).tex",
+      "sha256": "561f7ac6885057fe2f6d1fb02fb02d550718587459ca01ca8b9a0151309aecdf"
+    },
+    {
+      "file": "appendix_evidence.tex",
+      "sha256": "286aa86d1bdae2bfaecff62543301f5fb5b2d2bb39c7d11f743ae811793388f5"
+    },
+    {
+      "file": "approval(3).tex",
+      "sha256": "192be22efc5d40fb3b6108c43474d1760fe8ef050772dc2538fee00a40cb16d2"
+    },
+    {
+      "file": "concepts.tex",
+      "sha256": "7906bfe09e3dd30ced28ec32d053e603cfb72d68b73638d6c493c9be6e717139"
+    },
+    {
+      "file": "conclusion(20261111-131405).tex",
+      "sha256": "d56f3eaa908219911ee8822c05d469000af906b28bf58f11802e11614ca2ec74"
+    },
+    {
+      "file": "declaration(3).tex",
+      "sha256": "61723ed6f3afda258e010245db10db03cff18992d055886c9e75b444a432cafe"
+    },
+    {
+      "file": "evaluation(20261111-131406).tex",
+      "sha256": "60e350e8af777ba04f746e782408b27539ba2113c1172478f1aba8fe9ff36c45"
+    },
+    {
+      "file": "introduction(20261111-131406).tex",
+      "sha256": "77fbb462cb756d3b6d66ea8d2f9d0f3856c5d60197eb0b8f5e9c7ca2be5604c9"
+    },
+    {
+      "file": "limitations(20261111-131357).tex",
+      "sha256": "d0478e0b8f6d57b9aa5ee90ed8ba22a212e08fe98b4e759fe6e50cb2fc28fd9b"
+    },
+    {
+      "file": "literature_review(8).tex",
+      "sha256": "7cd2cd60378b68015840483045049f3365632832b902fe3c22ca0fb7674543ba"
+    },
+    {
+      "file": "main(10).tex",
+      "sha256": "4dea5ccef8d05b6187d77ab0a9ebc510dfa2ff7bc3fe1a17658041a703276309"
+    },
+    {
+      "file": "methodology(20261111-131358).tex",
+      "sha256": "8b14c30e2b4869a358bbbfe8454290f76861c6377b2a8f57837bd0ab135709d1"
+    },
+    {
+      "file": "references(20261111-131410).bib",
+      "sha256": "e36eff1e69a47f29b2d7441fddc4c2caea4a870f90f3182efe9911e483f89218"
+    },
+    {
+      "file": "research_gap.tex",
+      "sha256": "b27cbbda55b2e9db4e4c62819aea166b396a642127a2afbacc6492212b3cbdaa"
+    },
+    {
+      "file": "steganalysis.tex",
+      "sha256": "1d11b776c46705550af70d25a1c0c03dc7207193eaf0d88a1f27c73d81fb3c93"
+    },
+    {
+      "file": "terminology(20261111-131405).tex",
+      "sha256": "06c83fc57a024fecdbaa90ffe10c9e6c89fe55e4b38095548d8f9db5a00d024d"
+    },
+    {
+      "file": "titlepage(3).tex",
+      "sha256": "d000c7e8adbe035fce2c854aa265983094289e77c297366e815ce7159ad7cc8a"
+    }
+  ],
+  "evidence_inventory": [
+    {
+      "file": "cluster_bootstrap_intervals.csv",
+      "rows": 18,
+      "sha256": "e98cdc4e33f39a434faddc94e46710e6ff70cfb3bd4c14b43018b60d8bcdbf07"
+    },
+    {
+      "file": "exploratory_spearman_correlations.csv",
+      "rows": 9,
+      "sha256": "39bf3c083f0340917e0fe63745ab5f11891ad476177c40fffcf8b1260434442f"
+    },
+    {
+      "file": "extremes_eval_target_band_jensen_shannon.csv",
+      "rows": 20,
+      "sha256": "1440b6cb8fd30e00ee80465c0c6a3c02fe1ae0be3a87df9aca586a2cb79c2fc7"
+    },
+    {
+      "file": "extremes_pair_elapsed_seconds.csv",
+      "rows": 20,
+      "sha256": "c89b75918c1c24ff349c6f0ca4c2a927bde30c104cc878b8cb4f1614c0154e35"
+    },
+    {
+      "file": "extremes_png_stego_psnr.csv",
+      "rows": 20,
+      "sha256": "7cfb3939c038e6c5600a6e93a961a13e08f2c833b0c0056be125b699f8684041"
+    },
+    {
+      "file": "extremes_reference_stego_psnr.csv",
+      "rows": 20,
+      "sha256": "431b0a619d6745988e0f258241de5fa4232145b25187a68fe55b6dd3a3d0a926"
+    },
+    {
+      "file": "image_success_counts.csv",
+      "rows": 3550,
+      "sha256": "a3bf6d07ff6e2cca6d6c331e6200f3b6bc5291df1da56714bd5e712b48bf5853"
+    },
+    {
+      "file": "invariant_checks.csv",
+      "rows": 37,
+      "sha256": "ee1fe73cdde06d681843dfe67a32dda5bbbd3d6bd27ea09af09e5efc41d3c5f5"
+    },
+    {
+      "file": "message_id_text_summary.csv",
+      "rows": 15,
+      "sha256": "9f55458a6370111836b9435c0530586499c88f9e9bc52df81ee3dc1793fb5bf7"
+    },
+    {
+      "file": "message_identity.csv",
+      "rows": 15,
+      "sha256": "8b99c19128c9660c65c32d548fdb9ef7d9010bb4369f32ee83db38309b7dde3d"
+    },
+    {
+      "file": "outcome_reasons.csv",
+      "rows": 2,
+      "sha256": "b61356cda1e4103e5acf40d2bc2547bca0b850e8aab4b5738e29ce289b59a4ab"
+    },
+    {
+      "file": "paired_geometry_comparisons.csv",
+      "rows": 105,
+      "sha256": "2fddb493bca5ca776ee9df38830b633f48b78ec9c55593b80c368cbf8fd088b7"
+    },
+    {
+      "file": "qf_distribution(1).csv",
+      "rows": 189,
+      "sha256": "9a1b368002ec102cb9786b974e895afe1c8121b0f50fc19fad5e1e866bf74b2c"
+    },
+    {
+      "file": "raw_archive_counts.csv",
+      "rows": 4,
+      "sha256": "9a63ff13615f2f33e5b13461b04edcec3b0a7651d169c83a334276c04f13caf2"
+    },
+    {
+      "file": "sampling_geometry_message_id_text_summary.csv",
+      "rows": 105,
+      "sha256": "1c65cc45b7dbc88675e29e3b66729d08f148890136065cf9b0b378709819d148"
+    },
+    {
+      "file": "sampling_geometry_summary.csv",
+      "rows": 7,
+      "sha256": "2d5b1c19ffef51a4da3caa422de9e54ec49713eed08c5436c34ec54d4b76c6ef"
+    },
+    {
+      "file": "selected_archive_counts.csv",
+      "rows": 4,
+      "sha256": "e35498bc0e18a9868cc45f1574e7e7701b3a18846ac9ee55ec686e3eee9e0938"
+    },
+    {
+      "file": "successful_numeric_distribution.csv",
+      "rows": 66,
+      "sha256": "76083d73424c24576cc6dc7c786146cd0e9f0740d0332b889a0ad7fa1dec540a"
+    },
+    {
+      "file": "superseded_outcomes.csv",
+      "rows": 6,
+      "sha256": "182816e416feefbf1ca7c953cab97bdea45a287e933c4849f6ffa6324ee30eae"
+    }
+  ]
+}

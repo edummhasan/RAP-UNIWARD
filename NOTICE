@@ -1,0 +1,18 @@
+RAP-UNIWARD 1.0.0.1
+Reference-Assisted Probability-Aware UNIWARD
+
+The accompanying thesis identifies its author as Muhammad Mahbub Hasan Rony.
+This statement identifies the supplied research document; it does not assign
+ownership of every source file or grant a distribution license.
+
+The supplied source includes an adapted syndrome-trellis implementation under
+src/main/native/original_stc/ and related adapters. The thesis attributes the
+STC method to Filler, Judas and Fridrich, "Minimizing Additive Distortion in
+Steganography Using Syndrome-Trellis Codes" (2011). Algorithm attribution and
+permission to redistribute a particular implementation are separate matters.
+
+No project LICENSE file or definitive bundled-STC license was supplied. No new
+license grant is made by this packaging work. Establish the applicable source
+permissions and choose a project license before a public licensed release.
+External JDK, libjpeg, CUDA and ROCm components are not bundled in this source ZIP;
+they remain subject to their respective distribution terms.

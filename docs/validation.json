@@ -1,0 +1,217 @@
+{
+  "application": "RAP-UNIWARD",
+  "application_version": "1.0.0.1",
+  "date": "2026-11-11",
+  "java_compilation": "PASS: OpenJDK 21.0.13 source/target 21 against matching system modules",
+  "java_default_target_22": "NOT_EXECUTED",
+  "full_jpeg_jni_integration": "BLOCKED: JNI and libjpeg development headers unavailable",
+  "java_summary": {
+    "kind": "SOFTWARE_CHECKS_WITH_TEST_FIXTURES",
+    "backend": "CPU",
+    "assertions_enabled": true,
+    "programs": 35,
+    "counts": {
+      "PASS": 30,
+      "SKIP_OR_PARTIAL": 2,
+      "BLOCKED_DEPENDENCY": 3
+    },
+    "gpu_qualification": "NOT_ESTABLISHED"
+  },
+  "java_programs": [
+    {
+      "class": "thesis.rap.alg.BackendModeContractSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.alg.SiUniwardBatchBackendSelfTest",
+      "exit_code": 0,
+      "status": "SKIP_OR_PARTIAL"
+    },
+    {
+      "class": "thesis.rap.alg.SiUniwardCostEngineSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.alg.StatisticalCbCrCostSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.analysis.ConcurrentBatchEndToEndTest",
+      "exit_code": 1,
+      "status": "BLOCKED_DEPENDENCY"
+    },
+    {
+      "class": "thesis.rap.analysis.CsvConcurrentAppendSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.analysis.CsvStrictParsingSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.analysis.EvaluationSummaryFilteringSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.analysis.SixAlgorithmEndToEndTest",
+      "exit_code": 1,
+      "status": "BLOCKED_DEPENDENCY"
+    },
+    {
+      "class": "thesis.rap.analysis.StatisticsSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.BatchArtifactSafetySelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.BatchExecutorSupportSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.BatchShardSelectionSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.ForensicHardeningSelfTest",
+      "exit_code": 1,
+      "status": "BLOCKED_DEPENDENCY"
+    },
+    {
+      "class": "thesis.rap.app.MessageSpecificQfSelectionSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.MethodologyConformanceSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.MultiGeometrySelectionSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.PairConsoleContextSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.ProductionInputGuardSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.RefactorExactnessSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.ResultAuditWriterSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.RuntimeContractSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.StcCpuFallbackSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.StcHeightProfileSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.app.VerifiedOutputManifestSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.gpu.TrueParallelCudaParitySelfTest",
+      "exit_code": 0,
+      "status": "SKIP_OR_PARTIAL"
+    },
+    {
+      "class": "thesis.rap.image.CanonicalLuminanceSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.image.CanonicalQuantizationSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.image.CanonicalSamplingProfileSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.image.GeometrySelectionSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.image.SamplingGeometrySelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.image.StandardJpegQuantizationSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.payload.CompactPayloadProtocolSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.runtime.ExecutionBackendSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "class": "thesis.rap.runtime.RuntimePathsSelfTest",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "native_stc_self_test": "PASS",
+  "native_stc_concurrent_round_trips": 64,
+  "jni_declarations_with_native_definitions": 30,
+  "cuda": "NOT_EXECUTED",
+  "hip": "NOT_EXECUTED",
+  "thesis_full_compile": "BLOCKED: pdflatex.fmt unavailable",
+  "uploaded_source_archive_sha256": "d48735c15aa81417ab306e2023d8d84438d6206155fd2fcabf3380fca12e59c3",
+  "python_workflow_checks": {
+    "tests": 5,
+    "passed": 5,
+    "failed": 0,
+    "coverage": [
+      "complete manifest merge preserves textual identifiers",
+      "incomplete merge leaves existing output unchanged",
+      "duplicate pair does not publish an output",
+      "six invalid GPU device lists rejected before launch",
+      "coordinator termination stops both diagnostic child processes"
+    ],
+    "qualification": "Process-control fixtures; no GPU computation performed"
+  }
+}
