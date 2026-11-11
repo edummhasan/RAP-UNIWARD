@@ -1,2 +1,4 @@
 dataset/images/** filter=lfs diff=lfs merge=lfs -text
 dataset/reports/** filter=lfs diff=lfs merge=lfs -text
+dataset/runtime-log-data/*.csv filter=lfs diff=lfs merge=lfs -text
+dataset/runtime-log-data/*.log filter=lfs diff=lfs merge=lfs -text
